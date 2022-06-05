@@ -91,7 +91,8 @@ const scene = new THREE.Scene();
 // material.alphaMap = doorAlphaTexture;
 // material.transparent = true;
 
-// Good and free environment maps https://polyhaven.com/
+// Good and free environment maps - https://polyhaven.com/
+// To convert an HDRI to a cube map - https://matheowis.github.io/HDRI-to-CubeMap/
 const material = new THREE.MeshStandardMaterial();
 material.metalness = 0.7;
 material.roughness = 0.2;
